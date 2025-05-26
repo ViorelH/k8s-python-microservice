@@ -25,32 +25,23 @@ k8s-python-microservice/
 
 ### 1. Build Docker Image
 
-```bash
 docker build -t flask-k8s:latest .
-```
 
 ### 2. Enable Kubernetes
 Ensure Kubernetes is enabled in Docker Desktop.
 
 ### 3. Deploy to Kubernetes
-bash
-Copy
-Edit
+
 kubectl apply -f k8s/
 
 ### 4. Access the Service
 Check NodePort and open your browser:
 
-bash
-Copy
-Edit
 kubectl get service flask-service
 Default: http://localhost:30007
 
 ## To Tear Down
-bash
-Copy
-Edit
+
 kubectl delete -f k8s/
 
 ## TODO / Enhancements
