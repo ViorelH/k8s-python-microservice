@@ -1,15 +1,15 @@
-# Kubernetes Python Microservice 🚀
+# Kubernetes Python Microservice 
 
 A simple Python Flask microservice deployed using Kubernetes on Docker Desktop.
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - Python 3.10 + Flask
 - Docker
 - Kubernetes (via Docker Desktop)
 - `kubectl`
 
-## 🗂️ Project Structure
+##  Project Structure
 
 k8s-python-microservice/
 ├── app/
@@ -21,7 +21,7 @@ k8s-python-microservice/
 │ └── service.yaml # Kubernetes Service (NodePort)
 └── README.md
 
-## 🚀 How to Run It
+##  How to Run It
 
 ### 1. Build Docker Image
 
